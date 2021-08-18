@@ -1,0 +1,159 @@
+
+
+body{ 
+    background-color: rgba(209, 93, 16, 0.89);
+    margin: 0px;
+}
+/* this is how to target the whole of the HTML*/
+h1 {
+    color: rgba(58, 55, 55, 0.925);
+    font-size: 30px;
+}
+/*This is how to target an element within our HTML*/
+
+
+/* This is how to target a class*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgba(209, 93, 16, 0.89);
+  }
+  li a {
+    display: block;
+    color:black;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  li a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.image {
+    float: right; 
+    width: 25%;
+    padding-bottom: auto; 
+    padding-top: auto;
+    border-radius: 10px;
+}  
+
+.image:hover {
+    transform: scaleX(-1);
+}
+
+.container {
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(41, 39, 39);
+    color: white;
+    text-align:center;
+    width: 100%;
+}
+
+.logo {
+    background-image:url(image6.jpg);
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: rgba(41,39,39);
+    size: 100%;
+    text-align: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+
+h3 {
+    color:rgb(41, 39, 39);
+    size: 100%;
+    text-align: center;
+    justify-content: space-between;  
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+    font-size: 25px;
+    text-align: center;
+    justify-content: space-evenly;
+    color: rgba(2, 2, 2, 0.884);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text2 {
+    font-size: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img2 {
+    float: right;
+    width: 25%;
+    padding-bottom: 100px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.img2:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.img4 {
+    float: right;
+    width: 25%;
+    padding-bottom: 100px; 
+}
+
+.img4 {
+    border-radius: 10px;
+}
+
+.img4:hover {
+    transform: scaleX(-1);
+}
+
+.h4 {
+    font-size: 50px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.order-contianer {
+    border-style:solid;
+    height: 400px;
+    width: 400px;
+}
+
+.second-navbar {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+P{
+    font-size: 20px;
+    color: black; 
+    font-family: Arial, Helvetica, sans-serif;          
+}
+
+
+
+
