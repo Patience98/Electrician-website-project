@@ -56,7 +56,7 @@ li a:hover:not(.active) {
     justify-content: space-between;
 }
 
-.footer {
+#footer {
     position: fixed;
     bottom: 0;
     background-color: rgb(41, 39, 39);
